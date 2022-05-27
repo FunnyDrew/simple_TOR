@@ -1,0 +1,30 @@
+body {
+  display: flex;
+}
+
+.card {
+  width: 30vw;
+  height: 30vh;
+
+  margin: 20px;
+
+  text-align: center;
+
+  background: rgb(73 153 245);
+}
+
+@media (orientation: landscape) {
+  body {
+    flex-direction: row;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 75vw;
+  }
+}

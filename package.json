@@ -1,0 +1,34 @@
+{
+  "name": "simple_TOR",
+  "version": "1.0.0",
+  "description": "solving the different tasks of TOR",
+  "main": "index.html",
+  "scripts": {
+    "test": "n"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "html",
+    "css",
+    "layout"
+  ],
+  "author": "Rybin Andrey",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "htmlhint": "^1.1.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-order": "^5.0.0"
+  },
+  "dependencies": {
+    "check-node-version": "^4.2.1"
+  }
+}
