@@ -10,6 +10,10 @@ let playerScores = 0;
 let computerScores = 0;
 
 const initGame = () => {
+
+    playerScores = 0;
+    computerScores = 0;
+
     playerScoresDiv.textContent = 0;
     computerScoresDiv.textContent = 0;
 
@@ -25,15 +29,29 @@ const mapToScore = {0: [0, 0],
 
 const makeStep = () => Math.floor(Math.random()*3);
 
+initGame();
+
 buttons.forEach((button) => button.addEventListener('click', (e) => {
     e.preventDefault();
     
-    const playerChoose = variants.indexOf(e.target.id);
+    const playerChoose = variants.indexOf(e.target.id);    
     const computerChoose = makeStep();
-    console.log(playerChoose);
-    console.log(computerChoose);
-    console.log(playMap[playerChoose][computerChoose]);
-    result = mapToScore[playMap[playerChoose][computerChoose]];
-    console.log(result);
+
+    playerChooseDiv.textContent = e.target.id;
+    computerChooseDiv.textContent = variants[computerChoose];
+    
+    const [playerScore, computerScore] = mapToScore[playMap[playerChoose][computerChoose]];
+    playerScores += playerScore;
+    computerScores += computerScore;
+    playerScoresDiv.textContent = playerScores;
+    computerScoresDiv.textContent = computerScores;
+    
+    if ((playerScores === 5) || (computerScores === 5)){
+        playerScoresDiv.textContent = playerScores;
+    computerScoresDiv.textContent = computerScores;
+        alert("game end");
+        initGame();
+    }
+                
     })
 );
