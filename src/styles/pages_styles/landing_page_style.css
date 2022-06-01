@@ -1,40 +1,41 @@
 :root {
-  --dark-color: #1F2937;
-  --light-color: #F9FAF8;
+  --dark-color: #1f2937;
+  --light-color: #f9faf8;
   --light-grey: #e5e7eb;
-  --dark-grey:  #c2c4c7;
-  --light-blue: #3882F6;
+  --dark-grey: #c2c4c7;
+  --light-blue: #3882f6;
 }
 
 @font-face {
   font-family: "Roboto Regular";
-  src: url(../../media/Roboto/Roboto-Regular.ttf);
+  src: url("../../media/Roboto/Roboto-Regular.ttf");
 }
 
 @font-face {
   font-family: "Roboto Extra";
-  src: url(../../media/Roboto/Roboto-Black.ttf);
+  src: url("../../media/Roboto/Roboto-Black.ttf");
 }
 
 @font-face {
   font-family: "Roboto Italic Light";
-  src: url(../../media/Roboto/Roboto-LightItalic.ttf);
+  src: url("../../media/Roboto/Roboto-LightItalic.ttf");
 }
 
 body {
   box-sizing: border-box;
-  background: #FFF;
 
   font-family: "Roboto Regular", sans-serif;
+
+  background: #fff;
 }
 
-ul {  
+ul {
   list-style: none;
 }
 
 a {
   color: inherit;
-  text-decoration: inherit; 
+  text-decoration: inherit;
 }
 
 .flex-center {
@@ -52,7 +53,7 @@ a {
   justify-content: space-between;
 }
 
-.flex-align-center {  
+.flex-align-center {
   align-items: center;
 }
 
@@ -66,6 +67,10 @@ a {
 
 .flex-vertical {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .w-60vw {
@@ -82,6 +87,14 @@ a {
 
 .w-150 {
   width: 150px;
+}
+
+.w-250min {
+  min-width: 250px;
+}
+
+.w-max-500 {
+  max-width: 500px;
 }
 
 .h-35 {
@@ -101,15 +114,15 @@ a {
 }
 
 .h-350 {
-  height: 350px;
+  min-height: 350px;
 }
 
 .h-430 {
-  height: 430px;
+  min-height: 430px;
 }
 
 .h-500 {
-  height: 500px;
+  min-height: 500px;
 }
 
 .ml-30 {
@@ -121,11 +134,11 @@ a {
 }
 
 .ml-120 {
-  margin-left: 120px;
+  margin-left: 10vw;
 }
 
 .mr-120 {
-  margin-right: 120px;
+  margin-right: 10vw;
 }
 
 .mt-10 {
@@ -138,6 +151,10 @@ a {
 
 .m-30 {
   margin: 30px;
+}
+
+.m-auto {
+  margin: 10px auto;
 }
 
 .bg-dark {
@@ -157,7 +174,7 @@ a {
 }
 
 .font-24 {
-  font-size: 24px;  
+  font-size: 24px;
 }
 
 .font-36 {
@@ -169,12 +186,12 @@ a {
 }
 
 .font-bold {
-  font-family: "Roboto Extra";
   font-weight: bold;
+  font-family: "Roboto Extra", sans-serif;
 }
 
 .font-italic {
-  font-family: "Roboto Italic Light";
+  font-family: "Roboto Italic Light", sans-serif;
   font-style: italic;
 }
 
@@ -185,7 +202,6 @@ a {
 .text-align-right {
   text-align: right;
 }
-
 
 .text-prim-color {
   color: var(--light-color);
@@ -207,12 +223,16 @@ a {
   color: var(--dark-grey);
 }
 
+.vertical-align-center {
+  vertical-align: center;
+}
+
 .br-10 {
   border-radius: 10px;
 }
 
-.logo {  
-  font-family: "Roboto Extra";  
+.logo {
+  font-family: "Roboto Extra", sans-serif;
 }
 
 .btn {
