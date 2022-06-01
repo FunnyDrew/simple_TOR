@@ -72,3 +72,15 @@ body {
     border: 2px solid black;
     border-radius: 10px;
 }
+
+.bg-black {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+
+    background-color: rgb(0 0 0 / 75%);
+}
+
+.disable {
+    display: none;
+}
