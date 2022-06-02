@@ -2,14 +2,13 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.2.1
- 
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun  1 08:35:35 2022
+# Make data base, printed on Thu Jun  2 10:59:38 2022
 
 # Variables
 
@@ -48,7 +47,7 @@ VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 9:37786
+JOURNAL_STREAM = 9:43907
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'Makefile', line 1)
@@ -70,7 +69,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 _ = /usr/bin/code
 # environment
-MANAGERPID = 1457
+MANAGERPID = 2273
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -84,7 +83,7 @@ PATH = /home/arybin/.asdf/shims:/home/arybin/.asdf/bin:/usr/local/sbin:/usr/loca
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/ARybin-LK16:@/tmp/.ICE-unix/1673,unix/ARybin-LK16:/tmp/.ICE-unix/1673
+SESSION_MANAGER = local/ARybin-LK16:@/tmp/.ICE-unix/2487,unix/ARybin-LK16:/tmp/.ICE-unix/2487
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -94,7 +93,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = db0ff17a152d466a8df07b65bca51ad9
+INVOCATION_ID = 66e464e3d8c84792aabf1c8a74778915
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -114,7 +113,7 @@ PWD = /home/arybin/coding/simple_TOR
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1635
+SSH_AGENT_PID = 2452
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -154,11 +153,11 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
-SHLVL = 2
+SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-084b8dfe-5f66-42e1-aa70-312df6f4495d.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-54972d37-58bc-41fb-bec4-edbb5bc611cd.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -208,11 +207,11 @@ LC_MEASUREMENT = ru_RU.UTF-8
 # environment
 LC_ALL = C
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/066fd086_5975_4145_84c4_e1c925f6db6f
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/9b3f83e1_9ba3_4854_992b_b79c7c3c8e8b
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.97
+GNOME_TERMINAL_SERVICE = :1.86
 # default
 SUFFIXES := 
 # environment
@@ -234,7 +233,7 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 11941
+VSCODE_PID = 11256
 # variable set hash-table stats:
 # Load=111/1024=11%, Rehash=0, Collisions=18/136=13%
 
@@ -280,12 +279,12 @@ start:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+ 
 
  
 lint:
  
 #  Implicit rule search has not been done.
- 
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 5):
@@ -321,6 +320,6 @@ install:
 # strcache performance: lookups = 32 / hit rate = 25%
 # hash-table stats:
 # Load=24/8192=0%, Rehash=0, Collisions=1/32=3%
-# Finished Make data base on Wed Jun  1 08:35:35 2022
+# Finished Make data base on Thu Jun  2 10:59:38 2022
 
  
