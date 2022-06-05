@@ -1,5 +1,7 @@
+//import i18next from "i18next";
+const i18next = require('i18next');
+
 const buttons = document.querySelectorAll('button.game');
-console.log(buttons);
 
 const playerScoresDiv = document.querySelector('.player-scores');
 const computerScoresDiv = document.querySelector('.computer-scores');

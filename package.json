@@ -23,6 +23,7 @@
   "homepage": "",
   "devDependencies": {
     "browser-sync": "^2.27.7",
+    "browserify": "^17.0.0",
     "eslint": "^8.16.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "htmlhint": "^1.1.2",
@@ -31,6 +32,8 @@
     "stylelint-order": "^5.0.0"
   },
   "dependencies": {
-    "check-node-version": "^4.2.1"
+    "check-node-version": "^4.2.1",
+    "i18next": "^21.8.8",
+    "on-change": "^4.0.1"
   }
 }
