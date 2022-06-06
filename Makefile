@@ -13,3 +13,6 @@ start:
 
 deploy:
 	git push origin
+
+compile: 
+	npx browserify src/scripts/rock_paper_scissors.js -o src/scripts/bundle001.js

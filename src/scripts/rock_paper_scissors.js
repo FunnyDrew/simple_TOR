@@ -1,6 +1,26 @@
 //import i18next from "i18next";
 const i18next = require('i18next');
 
+i18next.init({
+  lng: 'ru', // Текущий язык
+  debug: true,
+  resources: {
+    ru: { // Тексты конкретного языка
+      translation: { // Так называемый namespace по умолчанию
+        key: 'Привет мир!',
+      },
+    },
+    en: {
+      translation: {
+        key: 'Hello world',
+      }
+    }
+  },
+});
+console.log(i18next.t('key'));
+i18next.changeLanguage('en');
+console.log(i18next.t('key'));
+
 const buttons = document.querySelectorAll('button.game');
 
 const playerScoresDiv = document.querySelector('.player-scores');
